@@ -4,7 +4,7 @@ import { Button } from "./button.component";
 import React, { useState } from 'react';
 
 const variants = {
-  primary: 'inline-flex items-center gap-2 font-semibold border border-black bg-black text-white hover:bg-[#4B4B55] hover:border-[#4B4B55]',
+  primary: 'inline-flex items-center gap-2 font-semibold border border-black bg-[#2e3438] text-white hover:bg-[#4B4B55] hover:border-[#4B4B55]',
   secondary: 'inline-flex items-center gap-2 font-semibold border border-black bg-transparent text-black hover:border-[#4B4B55]',
   tertiary: 'inline-flex items-center gap-2 font-semibold border border-transparent text-black hover:text-[#4B4B55]',
   iconLeft: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center',
