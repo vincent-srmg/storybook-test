@@ -9,7 +9,8 @@ const variants = {
   tertiary: 'inline-flex items-center gap-2 font-semibold border border-transparent text-black hover:text-[#4B4B55]',
   iconLeft: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center',
   iconRight: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center',
-  disabled: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center disabled:bg-[#C6C6C6] disabled:border-[#C6C6C6] disabled:text-white'
+  disabled: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center disabled:bg-[#C6C6C6] disabled:border-[#C6C6C6] disabled:text-white',
+  selected: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center disabled:bg-[#C6C6C6] disabled:border-[#C6C6C6] disabled:text-white'
 }
 
 const sizes = {
