@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_155b99ca26f1cf1"
   },
   "dependencies": {
     "@types/node": "20.4.1",
@@ -38,5 +39,7 @@
     "clsx": "^2.0.0",
     "storybook": "^7.0.26",
     "tailwind-merge": "^1.13.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "sayidaty@0.1.0"
 }
