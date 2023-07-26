@@ -1,8 +1,8 @@
 "use client";
 
-import Button from "@/components/atoms/button"
-import Logo from "@/components/atoms/logo/logo.component";
-import Tags from "@/components/atoms/tags/tags.component";
+import Button from "@/components/atoms/custom/button"
+import Logo from "@/components/atoms/custom/logo/logo.component";
+import Tags from "@/components/atoms/custom/tags/tags.component";
 import Link from "next/link"
 import { useRouter } from 'next/navigation'
 

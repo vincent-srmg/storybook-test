@@ -1,0 +1,90 @@
+// import type { Meta, StoryObj } from '@storybook/react';
+// import { Tags, TagsProps } from "./tags.component";
+
+// import React, { useState } from 'react';
+
+// const variants = {
+//   primary: {
+//     default: 'inline-flex gap-2.5 items-center border border-black bg-black font-light text-white hover:bg-[#4B4B55]',
+//     selected: 'bg-[#4B4B55] hover:bg-black',
+//     disabled: 'opacity-20'
+//   },
+//   secondary: {
+//     default: 'inline-flex gap-2.5 items-center border border-black bg-white font-light text-black hover:bg-[#F0F4F5]',
+//     selected: '',
+//     disabled: 'opacity-20'
+//   },
+//   rounded: 'inline-flex gap-2.5 items-center border border-black bg-black font-light text-white hover:bg-[#4B4B55] rounded-[20px]',
+// }
+
+// const sizes = {
+//   sm: 'py-2 px-4 text-xs leading-none',
+//   md: 'py-2 px-6 text-[14px] leading-none ',
+//   lg: 'py-2 px-6 text-md leading-none ',
+// }
+
+// const Template = (args: TagsProps) => {
+//   const [isSelected, setIsSelected] = useState<boolean>(false);
+//   const handleClick = () => {
+//     if (!isSelected) {
+//       setIsSelected(true);
+//     }
+//     else {
+//       setIsSelected(false);
+//     }
+//   };
+//   return <Tags selected={isSelected} onClick={handleClick}  {...args} />;
+// };
+
+// const meta: Meta<typeof Tags> = {
+//   title: 'Atoms/Tags',
+//   tags: ['autodocs'],
+//   component: Tags,
+//   args: {
+//     twSize: 'sm',
+//     closeIcon: 'icon icon-close-48',
+//     disabled: false,
+//     selected: false,
+//   },
+//   argTypes: {
+//     twSize: {
+//       control: 'radio',
+//       options: ['sm', 'md', 'lg'],
+//       mapping: {
+//         sm: sizes.sm,
+//         md: sizes.md,
+//         lg: sizes.lg,
+//       },
+//     },
+//   },
+// };
+
+// export default meta;
+// type Story = StoryObj<typeof Tags>;
+
+// export const Primary: Story = {
+//   args: {
+//     label: 'Tag Name',
+//     tw: variants.primary.default,
+//     twSelected: variants.primary.selected,
+//     twDisabled: variants.primary.disabled
+//   },
+// };
+
+// export const Secondary: Story = {
+//   args: {
+//     label: 'Tag Name',
+//     tw: variants.secondary.default,
+//     twSelected: variants.secondary.selected,
+//     twDisabled: variants.secondary.disabled
+//   },
+// };
+
+// export const Rounded: Story = {
+//   args: {
+//     label: 'Tag Name',
+//     tw: variants.rounded,
+//     twSelected: variants.primary.selected,
+//     twDisabled: variants.primary.disabled
+//   },
+// };
