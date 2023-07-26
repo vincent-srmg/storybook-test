@@ -3,6 +3,7 @@ import { TopicButton } from "srmg-dev-ui-003";
 import React, { useState } from 'react';
 
 const variants = {
+<<<<<<< HEAD
     primary: 'px-6 py-2.5 text-[14px] leading-[18.20px] inline-flex items-center gap-2 font-semibold border border-black bg-black text-white hover:bg-[#4B4B55] hover:border-[#4B4B55]',
     secondary: 'px-6 py-2.5 text-[14px] leading-[18.20px] inline-flex items-center gap-2 font-semibold border border-black bg-transparent text-black hover:border-[#4B4B55]',
     tertiary: 'px-6 py-2.5 text-[14px] leading-[18.20px] inline-flex items-center gap-2 font-semibold border border-transparent text-black hover:text-[#4B4B55]',
@@ -16,6 +17,15 @@ const isDisbaled = (tw:any, disabled:any) => {
         return `${tw} disabled:bg-[#eeeeee]`;
     }
     else return tw
+=======
+  primary: 'inline-flex items-center gap-2 font-semibold border border-black bg-[#2e3438] text-white hover:bg-[#4B4B55] hover:border-[#4B4B55]',
+  secondary: 'inline-flex items-center gap-2 font-semibold border border-black bg-transparent text-black hover:border-[#4B4B55]',
+  tertiary: 'inline-flex items-center gap-2 font-semibold border border-transparent text-black hover:text-[#4B4B55]',
+  iconLeft: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center',
+  iconRight: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center',
+  disabled: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center disabled:bg-[#C6C6C6] disabled:border-[#C6C6C6] disabled:text-white',
+  selected: 'inline-flex gap-2 font-semibold border border-black bg-black text-white justify-center items-center disabled:bg-[#C6C6C6] disabled:border-[#C6C6C6] disabled:text-white'
+>>>>>>> 3ac95f841580a43f1badf81653bdcc8113f80eca
 }
 
 const meta: Meta<typeof TopicButton> = {
